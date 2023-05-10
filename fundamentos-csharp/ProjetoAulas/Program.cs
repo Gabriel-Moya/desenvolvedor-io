@@ -25,3 +25,18 @@ Console.WriteLine(descricao);
     Comentário
     multiline
 */
+
+int numero1 = 1;
+var numero2 = 2;
+
+var soma = numero1 + numero2;
+Console.WriteLine(soma);
+
+var subtracao = numero1 - numero2;
+Console.WriteLine(subtracao);
+
+var multiplicacao = (numero1 * numero2) * 10;
+Console.WriteLine(multiplicacao);
+
+var divisao = numero1 / numero2;
+Console.WriteLine(divisao);
