@@ -21,3 +21,7 @@ Console.WriteLine(ativo);
 const string descricao = "Curso CSHARP";
 // descricao = "Curso";
 Console.WriteLine(descricao);
+/*
+    Comentário
+    multiline
+*/
