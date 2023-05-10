@@ -1,26 +1,26 @@
-﻿Console.WriteLine("Hello, World!");
+﻿// Console.WriteLine("Hello, World!");
 
-int idade = 33;
-Console.WriteLine(idade);
-string nomePessoa = "Gabriel Moya";
-Console.WriteLine(nomePessoa);
-decimal valor = 200.99m;
-double valorDouble = 200.99;
-float valorFloat = 200.99f;
-Console.WriteLine(valor);
-Console.WriteLine(valorDouble);
-Console.WriteLine(valorFloat);
-var idadeNova = 34;
-char flag = 'Y';
-Console.WriteLine(flag);
-bool ativo = true;
-ativo = false;
-Console.WriteLine(ativo);
+// int idade = 33;
+// Console.WriteLine(idade);
+// string nomePessoa = "Gabriel Moya";
+// Console.WriteLine(nomePessoa);
+// decimal valor = 200.99m;
+// double valorDouble = 200.99;
+// float valorFloat = 200.99f;
+// Console.WriteLine(valor);
+// Console.WriteLine(valorDouble);
+// Console.WriteLine(valorFloat);
+// var idadeNova = 34;
+// char flag = 'Y';
+// Console.WriteLine(flag);
+// bool ativo = true;
+// ativo = false;
+// Console.WriteLine(ativo);
 
 
-const string descricao = "Curso CSHARP";
-// descricao = "Curso";
-Console.WriteLine(descricao);
+// const string descricao = "Curso CSHARP";
+// // descricao = "Curso";
+// Console.WriteLine(descricao);
 /*
     Comentário
     multiline
@@ -28,7 +28,7 @@ Console.WriteLine(descricao);
 
 int numero1 = 1;
 var numero2 = 2;
-
+/*
 var soma = numero1 + numero2;
 Console.WriteLine(soma);
 
@@ -40,3 +40,22 @@ Console.WriteLine(multiplicacao);
 
 var divisao = numero1 / numero2;
 Console.WriteLine(divisao);
+*/
+
+bool igual = numero1 == numero2;
+Console.WriteLine(igual);
+
+bool maior = numero2 > numero1;
+Console.WriteLine(maior);
+
+bool menor = numero2 < numero1;
+Console.WriteLine(menor);
+
+bool maiorOuIgual = numero2 >= numero1;
+Console.WriteLine(maiorOuIgual);
+
+bool menorOuIgual = numero2 <= numero1;
+Console.WriteLine(menorOuIgual);
+
+bool diferente = numero2 != numero1;
+Console.WriteLine(diferente);
