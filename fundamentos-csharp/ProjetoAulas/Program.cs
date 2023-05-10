@@ -60,14 +60,18 @@ Console.WriteLine(divisao);
 // bool diferente = numero2 != numero1;
 // Console.WriteLine(diferente);
 
-int numero1 = 1;
-var numero2 = 2;
+// int numero1 = 1;
+// var numero2 = 2;
 
-bool valido = numero2 > numero1 && 6 > 7;
-Console.WriteLine(valido);
+// bool valido = numero2 > numero1 && 6 > 7;
+// Console.WriteLine(valido);
 
-bool valido2 = numero2 > 10 || 6 > 7;
-Console.WriteLine(valido2);
+// bool valido2 = numero2 > 10 || 6 > 7;
+// Console.WriteLine(valido2);
 
-bool valido3 = !(numero2 > 3);
-Console.WriteLine(valido3);
+// bool valido3 = !(numero2 > 3);
+// Console.WriteLine(valido3);
+
+bool ativo = false;
+string status = ativo ? "Cadastro Ativo" : "Cadastro Inativo";
+Console.WriteLine(status);
