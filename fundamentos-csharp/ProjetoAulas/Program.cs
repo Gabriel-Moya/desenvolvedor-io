@@ -26,8 +26,8 @@
     multiline
 */
 
-int numero1 = 1;
-var numero2 = 2;
+// int numero1 = 1;
+// var numero2 = 2;
 /*
 var soma = numero1 + numero2;
 Console.WriteLine(soma);
@@ -42,20 +42,32 @@ var divisao = numero1 / numero2;
 Console.WriteLine(divisao);
 */
 
-bool igual = numero1 == numero2;
-Console.WriteLine(igual);
+// bool igual = numero1 == numero2;
+// Console.WriteLine(igual);
 
-bool maior = numero2 > numero1;
-Console.WriteLine(maior);
+// bool maior = numero2 > numero1;
+// Console.WriteLine(maior);
 
-bool menor = numero2 < numero1;
-Console.WriteLine(menor);
+// bool menor = numero2 < numero1;
+// Console.WriteLine(menor);
 
-bool maiorOuIgual = numero2 >= numero1;
-Console.WriteLine(maiorOuIgual);
+// bool maiorOuIgual = numero2 >= numero1;
+// Console.WriteLine(maiorOuIgual);
 
-bool menorOuIgual = numero2 <= numero1;
-Console.WriteLine(menorOuIgual);
+// bool menorOuIgual = numero2 <= numero1;
+// Console.WriteLine(menorOuIgual);
 
-bool diferente = numero2 != numero1;
-Console.WriteLine(diferente);
+// bool diferente = numero2 != numero1;
+// Console.WriteLine(diferente);
+
+int numero1 = 1;
+var numero2 = 2;
+
+bool valido = numero2 > numero1 && 6 > 7;
+Console.WriteLine(valido);
+
+bool valido2 = numero2 > 10 || 6 > 7;
+Console.WriteLine(valido2);
+
+bool valido3 = !(numero2 > 3);
+Console.WriteLine(valido3);
