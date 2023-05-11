@@ -77,27 +77,43 @@ Console.WriteLine(divisao);
 // Console.WriteLine(status);
 
 
-EscreverNome();
+// EscreverNome();
 
 
-void EscreverNome()
+// void EscreverNome()
+// {
+//     var nome = NomeCompleto();
+//     var soma = SomaValores();
+
+//     Console.WriteLine(nome);
+//     Console.WriteLine(soma);
+// }
+
+// string NomeCompleto()
+// {
+//     string primeiroNome = "Gabriel";
+//     string segundoNome = "Moya";
+
+//     return primeiroNome + " " + segundoNome;
+// }
+
+// int SomaValores()
+// {
+//     return 8 + 2;
+// }
+
+var soma = SomaValores(3, 5);
+Console.WriteLine(soma);
+
+var nome = NomeEIdade("Gabriel", 26);
+Console.WriteLine(nome);
+
+int SomaValores(int a, int b)
 {
-    var nome = NomeCompleto();
-    var soma = SomaValores();
-
-    Console.WriteLine(nome);
-    Console.WriteLine(soma);
+    return a + b;
 }
 
-string NomeCompleto()
+string NomeEIdade(string nome, int idade)
 {
-    string primeiroNome = "Gabriel";
-    string segundoNome = "Moya";
-
-    return primeiroNome + " " + segundoNome;
-}
-
-int SomaValores()
-{
-    return 8 + 2;
+    return "Meu nome é " + nome + " e tenho " + idade + " anos";
 }
