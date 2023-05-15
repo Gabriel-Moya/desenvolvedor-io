@@ -102,18 +102,38 @@ Console.WriteLine(divisao);
 //     return 8 + 2;
 // }
 
-var soma = SomaValores(3, 5);
-Console.WriteLine(soma);
+// var soma = SomaValores(3, 5);
+// Console.WriteLine(soma);
 
-var nome = NomeEIdade("Gabriel", 26);
-Console.WriteLine(nome);
+// var nome = NomeEIdade("Gabriel", 26);
+// Console.WriteLine(nome);
 
-int SomaValores(int a, int b)
+// int SomaValores(int a, int b)
+// {
+//     return a + b;
+// }
+
+// string NomeEIdade(string nome, int idade)
+// {
+//     return "Meu nome é " + nome + " e tenho " + idade + " anos";
+// }
+
+
+using System.Collections;
+
+var arrayList = new ArrayList();
+arrayList.Add(1);
+arrayList.Add("Gabriel");
+arrayList.Add(true);
+
+// Console.WriteLine(arrayList[1]);
+
+arrayList.RemoveAt(1);
+
+arrayList.Clear();
+
+foreach (var item in arrayList)
 {
-    return a + b;
+    Console.WriteLine(item);
 }
 
-string NomeEIdade(string nome, int idade)
-{
-    return "Meu nome é " + nome + " e tenho " + idade + " anos";
-}
