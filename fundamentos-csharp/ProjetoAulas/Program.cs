@@ -164,20 +164,39 @@ Console.WriteLine(divisao);
 // }
 
 
-var lista = new List<string>(10)
-{
-    "Gabriel",
-    "Moya",
-};
+// var lista = new List<string>(10)
+// {
+//     "Gabriel",
+//     "Moya",
+// };
 // lista.Add("Gabriel");
 // lista.Add("Moya");
 // lista.Add("Curso");
 
-var nome = lista[0];
-Console.WriteLine(nome);
+// var nome = lista[0];
+// Console.WriteLine(nome);
 
-lista.RemoveAt(1);
-foreach (var item in lista)
+// lista.RemoveAt(1);
+// foreach (var item in lista)
+// {
+//     Console.WriteLine(item);
+// }
+
+
+var dicionario = new Dictionary<string, string>()
 {
-    Console.WriteLine(item);
+    { "teste", "Teste" },
+    { "teste6", "teste 6" }
+};
+dicionario.Add("nome", "Gabriel");
+
+dicionario["curso"] = "Curso";
+
+var nome = dicionario["curso"];
+// Console.WriteLine(nome);
+
+foreach (var item in dicionario)
+{
+    Console.WriteLine($"Key: {item.Key}");
+    Console.WriteLine($"Value: {item.Value}");
 }
