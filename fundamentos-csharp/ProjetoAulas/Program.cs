@@ -119,21 +119,46 @@ Console.WriteLine(divisao);
 // }
 
 
-using System.Collections;
+// using System.Collections;
 
-var arrayList = new ArrayList();
-arrayList.Add(1);
-arrayList.Add("Gabriel");
-arrayList.Add(true);
+// var arrayList = new ArrayList();
+// arrayList.Add(1);
+// arrayList.Add("Gabriel");
+// arrayList.Add(true);
 
-// Console.WriteLine(arrayList[1]);
+// // Console.WriteLine(arrayList[1]);
 
-arrayList.RemoveAt(1);
+// arrayList.RemoveAt(1);
 
-arrayList.Clear();
+// arrayList.Clear();
 
-foreach (var item in arrayList)
+// foreach (var item in arrayList)
+// {
+//     Console.WriteLine(item);
+// }
+
+
+// var arrayTipadoNumero = new int[3] { 1, 2, 3 };
+var arrayTipadoNumero = new int[3];
+
+arrayTipadoNumero[0] = 5;
+arrayTipadoNumero[1] = 5;
+arrayTipadoNumero[2] = 10;
+
+// Array.Resize(ref arrayTipadoNumero, 100);
+// arrayTipadoNumero[10] = 100;
+
+foreach (var item in arrayTipadoNumero)
 {
     Console.WriteLine(item);
 }
 
+// var arrayTipadoString = new string[2] { "Gabriel", "Moya" };
+var arrayTipadoString = new string[2];
+arrayTipadoString[0] = "Gabriel";
+arrayTipadoString[1] = "Moya";
+
+foreach (var item in arrayTipadoString)
+{
+    Console.WriteLine(item);
+}
