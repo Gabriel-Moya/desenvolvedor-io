@@ -342,19 +342,35 @@ Console.WriteLine(divisao);
 // }
 
 // MODULO 7 - Aula 4
-var lista = new List<string>()
-{
-    "Rafael",
-    "Curso",
-    "CSharp"
-};
+// var lista = new List<string>()
+// {
+//     "Rafael",
+//     "Curso",
+//     "CSharp"
+// };
 
 // foreach (string item in lista)
 // {
 //     Console.WriteLine(item);
 // }
 
-foreach (var letra in "Gabriel Moya")
+// foreach (var letra in "Gabriel Moya")
+// {
+//     Console.WriteLine(letra);
+// }
+
+// MODULO 7 - Aula 5
+
+var i = 3;
+while(i < 2)
 {
-    Console.WriteLine(letra);
+    Console.WriteLine($"var i: {i}");
+    i++;
 }
+
+var j = 3;
+do
+{
+    Console.WriteLine($"var j: {j}");
+    j++;
+} while (j < 2);
