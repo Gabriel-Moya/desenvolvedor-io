@@ -183,20 +183,39 @@ Console.WriteLine(divisao);
 // }
 
 
-var dicionario = new Dictionary<string, string>()
-{
-    { "teste", "Teste" },
-    { "teste6", "teste 6" }
-};
-dicionario.Add("nome", "Gabriel");
+// var dicionario = new Dictionary<string, string>()
+// {
+//     { "teste", "Teste" },
+//     { "teste6", "teste 6" }
+// };
+// dicionario.Add("nome", "Gabriel");
 
-dicionario["curso"] = "Curso";
+// dicionario["curso"] = "Curso";
 
-var nome = dicionario["curso"];
-// Console.WriteLine(nome);
+// var nome = dicionario["curso"];
+// // Console.WriteLine(nome);
 
-foreach (var item in dicionario)
-{
-    Console.WriteLine($"Key: {item.Key}");
-    Console.WriteLine($"Value: {item.Value}");
-}
+// foreach (var item in dicionario)
+// {
+//     Console.WriteLine($"Key: {item.Key}");
+//     Console.WriteLine($"Value: {item.Value}");
+// }
+
+
+var queue = new Queue<string>();
+queue.Enqueue("Gabriel");
+queue.Enqueue("Moya");
+
+// var nome = queue.Peek();
+// var nome1 = queue.Peek();
+
+var nome = queue.Dequeue();
+var nome1 = queue.Dequeue();
+
+Console.WriteLine(nome);
+Console.WriteLine(nome1);
+
+// foreach (var item in queue)
+// {
+//     Console.WriteLine(item);
+// }
