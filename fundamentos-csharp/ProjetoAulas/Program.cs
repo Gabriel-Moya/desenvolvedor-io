@@ -361,16 +361,38 @@ Console.WriteLine(divisao);
 
 // MODULO 7 - Aula 5
 
-var i = 3;
-while(i < 2)
+// var i = 3;
+// while(i < 2)
+// {
+//     Console.WriteLine($"var i: {i}");
+//     i++;
+// }
+
+// var j = 3;
+// do
+// {
+//     Console.WriteLine($"var j: {j}");
+//     j++;
+// } while (j < 2);
+
+// MODULO 7 - Aula 6
+
+var i = 0;
+while(i < 5)
 {
+    if (i < 2)
+    {
+        Console.WriteLine("Continuando");
+        i++;
+        continue;
+    }
+
     Console.WriteLine($"var i: {i}");
     i++;
-}
 
-var j = 3;
-do
-{
-    Console.WriteLine($"var j: {j}");
-    j++;
-} while (j < 2);
+    if (i == 2)
+    {
+        Console.WriteLine("Valor de i é igual a 2 (dois)");
+        break;
+    }
+}
