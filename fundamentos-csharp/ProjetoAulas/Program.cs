@@ -328,6 +328,20 @@ Console.WriteLine(divisao);
 // }
 
 // MODULO 7 - Aula 3
+// var lista = new List<string>()
+// {
+//     "Rafael",
+//     "Curso",
+//     "CSharp"
+// };
+
+// for (int i = 0; i < lista.Count; i++)
+// {
+//     var nome = lista[i];
+//     Console.WriteLine(nome);
+// }
+
+// MODULO 7 - Aula 4
 var lista = new List<string>()
 {
     "Rafael",
@@ -335,8 +349,12 @@ var lista = new List<string>()
     "CSharp"
 };
 
-for (int i = 0; i < lista.Count; i++)
+// foreach (string item in lista)
+// {
+//     Console.WriteLine(item);
+// }
+
+foreach (var letra in "Gabriel Moya")
 {
-    var nome = lista[i];
-    Console.WriteLine(nome);
+    Console.WriteLine(letra);
 }
