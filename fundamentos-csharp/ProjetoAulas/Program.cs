@@ -253,34 +253,74 @@ Console.WriteLine(divisao);
 //     Console.WriteLine("Hoje não é domingo");
 // }
 
-var diaDaSemana = 10;
-if (diaDaSemana == 0)
+// var diaDaSemana = 10;
+// if (diaDaSemana == 0)
+// {
+//     Console.WriteLine("Hoje é domingo");
+// }
+// else if (diaDaSemana == 1)
+// {
+//     Console.WriteLine("Hoje é segunda");
+// }
+// else if (diaDaSemana == 2)
+// {
+//     Console.WriteLine("Hoje é terça");
+// }
+// else if (diaDaSemana == 3)
+// {
+//     Console.WriteLine("Hoje é quarta");
+// }
+// else if (diaDaSemana == 4)
+// {
+//     Console.WriteLine("Hoje é quinta");
+// }
+// else if (diaDaSemana == 5)
+// {
+//     Console.WriteLine("Hoje é sexta");
+// }
+// else if (diaDaSemana == 6)
+// {
+//     Console.WriteLine("Hoje é sábado");
+// }
+// else
+// {
+//     Console.WriteLine("Dia da semana inválido");
+// }
+
+// MODULO 7 - Aula 2
+// var diaDaSemana = 3;
+// switch (diaDaSemana)
+// {
+//     case 0:
+//         Console.WriteLine("Hoje é domingo");
+//         break;
+//     case 1:
+//         Console.WriteLine("Hoje é segunda");
+//         break;
+//     case 2:
+//         Console.WriteLine("Hoje é terça");
+//         break;
+//     case 3:
+//         Console.WriteLine("Hoje é quarta");
+//         break;
+//     case 4:
+//         Console.WriteLine("Hoje é quinta");
+//         break;
+//     case 5:
+//         Console.WriteLine("Hoje é sexta");
+//         break;
+//     case 6:
+//         Console.WriteLine("Hoje é sábado");
+//         break;
+//     default:
+//         Console.WriteLine("Dia da semana inválido");
+//         break;
+// }
+
+var diaDaSemana = 0;
+if (diaDaSemana < 1)
 {
-    Console.WriteLine("Hoje é domingo");
-}
-else if (diaDaSemana == 1)
-{
-    Console.WriteLine("Hoje é segunda");
-}
-else if (diaDaSemana == 2)
-{
-    Console.WriteLine("Hoje é terça");
-}
-else if (diaDaSemana == 3)
-{
-    Console.WriteLine("Hoje é quarta");
-}
-else if (diaDaSemana == 4)
-{
-    Console.WriteLine("Hoje é quinta");
-}
-else if (diaDaSemana == 5)
-{
-    Console.WriteLine("Hoje é sexta");
-}
-else if (diaDaSemana == 6)
-{
-    Console.WriteLine("Hoje é sábado");
+        Console.WriteLine("Hoje é domingo");
 }
 else
 {
