@@ -317,12 +317,26 @@ Console.WriteLine(divisao);
 //         break;
 // }
 
-var diaDaSemana = 0;
-if (diaDaSemana < 1)
+// var diaDaSemana = 0;
+// if (diaDaSemana < 1)
+// {
+//         Console.WriteLine("Hoje é domingo");
+// }
+// else
+// {
+//     Console.WriteLine("Dia da semana inválido");
+// }
+
+// MODULO 7 - Aula 3
+var lista = new List<string>()
 {
-        Console.WriteLine("Hoje é domingo");
-}
-else
+    "Rafael",
+    "Curso",
+    "CSharp"
+};
+
+for (int i = 0; i < lista.Count; i++)
 {
-    Console.WriteLine("Dia da semana inválido");
+    var nome = lista[i];
+    Console.WriteLine(nome);
 }
