@@ -202,20 +202,38 @@ Console.WriteLine(divisao);
 // }
 
 
-var queue = new Queue<string>();
-queue.Enqueue("Gabriel");
-queue.Enqueue("Moya");
+// var queue = new Queue<string>();
+// queue.Enqueue("Gabriel");
+// queue.Enqueue("Moya");
 
 // var nome = queue.Peek();
 // var nome1 = queue.Peek();
 
-var nome = queue.Dequeue();
-var nome1 = queue.Dequeue();
+// var nome = queue.Dequeue();
+// var nome1 = queue.Dequeue();
 
+// Console.WriteLine(nome);
+// Console.WriteLine(nome1);
+
+// foreach (var item in queue)
+// {
+//     Console.WriteLine(item);
+// }
+
+
+
+var stack = new Stack<string>();
+stack.Push("Gabriel");
+stack.Push("Moya");
+
+var nome = stack.Pop();
+var nome1 = stack.Pop();
 Console.WriteLine(nome);
 Console.WriteLine(nome1);
 
-// foreach (var item in queue)
+
+
+// foreach (var item in stack)
 // {
 //     Console.WriteLine(item);
 // }
