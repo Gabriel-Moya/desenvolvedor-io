@@ -8,7 +8,8 @@ namespace Application
     {
         static void Main(string[] args)
         {
-            AulaClasses();            
+            // AulaClasses();
+            AulaPropriedadeSomenteLeitura();
         }
 
         private static void AulaClasses()
@@ -22,6 +23,14 @@ namespace Application
 
             // produto.ImprimirDescricao();
             // Console.WriteLine(produto.GetId());
+        }
+
+        private static void AulaPropriedadeSomenteLeitura()
+        {
+            var produto = new Cadastro.Produto();
+            produto.Descricao = "Mouse";
+            // produto.Estoque = 1;
+            Console.WriteLine(produto.Estoque);
         }
     }
 }
