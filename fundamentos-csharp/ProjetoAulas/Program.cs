@@ -9,7 +9,31 @@ namespace Application
         static void Main(string[] args)
         {
             // AulaClasses();
-            AulaPropriedadeSomenteLeitura();
+            // AulaPropriedadeSomenteLeitura();
+            AulaHeranca();
+        }
+
+        private static void AulaHeranca()
+        {
+            // var pessoaFisica = new Cadastro.PessoaFisica();
+            // pessoaFisica.Id = 1;
+            // pessoaFisica.Endereco = "Endereco Teste";
+            // pessoaFisica.Cidade = "Cidade teste";
+            // pessoaFisica.Cep = "12345612";
+            // pessoaFisica.CPF = "12345678912";
+
+            // pessoaFisica.ImprimirDados();
+            // pessoaFisica.ImprimirCpf();
+
+            var funcionario = new Cadastro.Funcionario();
+            funcionario.Id = 10;
+            funcionario.Endereco = "Endereco Teste";
+            funcionario.Cidade = "Cidade teste";
+            funcionario.Cep = "12345612";
+            funcionario.CPF = "12345678912";
+
+            funcionario.ImprimirDados();
+            funcionario.ImprimirCpf();
         }
 
         private static void AulaClasses()
