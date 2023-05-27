@@ -69,4 +69,9 @@ namespace Cadastro
     {
         public string Matricula { get; set; }
     }
+
+    public sealed class Configuracao
+    {
+        public string Host { get; set; }
+    }
 }
