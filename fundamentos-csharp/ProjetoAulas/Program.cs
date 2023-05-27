@@ -11,7 +11,15 @@ namespace Application
             // AulaClasses();
             // AulaPropriedadeSomenteLeitura();
             // AulaHeranca();
-            AulaClasseSelada();
+            // AulaClasseSelada();
+            AulaClasseAbstrata();
+        }
+
+        private static void AulaClasseAbstrata()
+        {
+            var cachorro = new Cadastro.Cachorro();
+            cachorro.Nome = "Dog";
+            cachorro.ImprimirDados();
         }
 
         private static void AulaClasseSelada()
