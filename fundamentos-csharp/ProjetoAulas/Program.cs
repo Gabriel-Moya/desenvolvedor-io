@@ -26,7 +26,8 @@ namespace Application
             // trabalhandoComStrings.ConverterParaLetrasMaiusculas();
             // trabalhandoComStrings.AulaSubstring();
             // trabalhandoComStrings.AulaRange();
-            trabalhandoComStrings.AulaContains();
+            // trabalhandoComStrings.AulaContains();
+            trabalhandoComStrings.AulaTrim();
         }
 
         private static void Conversores()
