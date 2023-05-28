@@ -23,7 +23,8 @@ namespace Application
         {
             var trabalhandoComStrings = new Modulo10.TrabalhandoComStrings();
             // trabalhandoComStrings.ConverterParaLetrasMinusculas();
-            trabalhandoComStrings.ConverterParaLetrasMaiusculas();
+            // trabalhandoComStrings.ConverterParaLetrasMaiusculas();
+            trabalhandoComStrings.AulaSubstring();
         }
 
         private static void Conversores()
