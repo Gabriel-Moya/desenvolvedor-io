@@ -39,4 +39,18 @@ public class TrabalhandoComStrings
         string apenasNome = nomeArquivo[..^4];
         Console.WriteLine(apenasNome);
     }
+
+    public void AulaContains()
+    {
+        string nomeArquivo = "2023_05_28_backup.bak";
+        if (nomeArquivo.Contains("backup_teste"))
+        {
+            Console.WriteLine("Palavra encontrada");
+        }
+        else
+        {
+            Console.WriteLine("Palavra não encontrada");
+        }
+        // Console.WriteLine("Contem nome: " + nomeArquivo.Contains("backup"));
+    }
 }
