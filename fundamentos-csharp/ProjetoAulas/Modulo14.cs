@@ -51,4 +51,13 @@ public class TrabalhandoComLinq
         }
     }
 
+    public void AulaCount()
+    {
+        var numeros = new int[] { 10, 6, 5, 50, 15, 2 };
+
+        var resultado = numeros.Count(x => x > 10);
+
+        Console.WriteLine(resultado);
+    }
+
 }
