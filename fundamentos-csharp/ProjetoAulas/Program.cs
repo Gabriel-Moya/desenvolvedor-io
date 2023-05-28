@@ -24,7 +24,8 @@ namespace Application
         private static void TrabalhandoComExcecoes()
         {
             var trabalhandoComExcecoes = new Modulo12.TrabalhandoComExcecoes();
-            trabalhandoComExcecoes.AulaGerandoException();
+            // trabalhandoComExcecoes.AulaGerandoException();
+            trabalhandoComExcecoes.AulaTratandoException();
         }
 
         private static void TrabalhandoComDatas()
