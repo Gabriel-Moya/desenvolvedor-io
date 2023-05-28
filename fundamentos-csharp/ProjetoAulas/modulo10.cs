@@ -78,4 +78,12 @@ public class TrabalhandoComStrings
         Console.WriteLine(teste);
         Console.WriteLine(teste.Replace("Csharp", "C#"));
     }
+
+    public void AulaLength()
+    {
+        string teste = Console.ReadLine();
+
+        Console.WriteLine(teste);
+        Console.WriteLine(teste.Length);
+    }
 }
