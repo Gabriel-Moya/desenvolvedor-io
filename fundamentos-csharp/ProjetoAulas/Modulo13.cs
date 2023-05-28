@@ -13,4 +13,20 @@ public class TrabalhandoComArquivos
         escrever.WriteLine("----------------------");
         escrever.Close();
     }
+
+    public void AulaLendoArquivo()
+    {
+        // var conteudo = File.ReadAllText("cadastro.txt");
+
+        // Console.WriteLine(conteudo);
+
+        var ler = new StreamReader("cadastro.txt");
+        while (!ler.EndOfStream)
+        {
+            var linha = ler.ReadLine();
+            Console.WriteLine(linha);
+        }
+
+        ler.Close();
+    }
 }

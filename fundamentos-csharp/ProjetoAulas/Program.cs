@@ -25,7 +25,8 @@ namespace Application
         private static void TrabalhandoComArquivos()
         {
             var trabalhandoComArquivos = new Modulo13.TrabalhandoComArquivos();
-            trabalhandoComArquivos.AulaCriandoArquivo();
+            // trabalhandoComArquivos.AulaCriandoArquivo();
+            trabalhandoComArquivos.AulaLendoArquivo();
         }
 
         private static void TrabalhandoComExcecoes()
