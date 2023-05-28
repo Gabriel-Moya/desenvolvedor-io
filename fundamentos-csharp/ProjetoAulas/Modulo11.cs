@@ -40,4 +40,14 @@ public class TrabalhandoComDatas
         Console.WriteLine(date1.AddMonths(1).ToString("dd-MM-yyyy HH:mm:ss"));
         Console.WriteLine(date1.AddYears(2).ToString("dd-MM-yyyy HH:mm:ss"));
     }
+
+    public void AulaAdicionandoHorasMinutosSegundos()
+    {
+        var date1 = DateTime.Now;
+
+        Console.WriteLine(date1.ToString("HH:mm:ss"));
+        Console.WriteLine(date1.AddHours(1).ToString("HH:mm:ss"));
+        Console.WriteLine(date1.AddMinutes(10).ToString("HH:mm:ss"));
+        Console.WriteLine(date1.AddSeconds(10).ToString("HH:mm:ss"));
+    }
 }

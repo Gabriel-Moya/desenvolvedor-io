@@ -25,7 +25,8 @@ namespace Application
             var trabalhandoComDatas = new Modulo11.TrabalhandoComDatas();
             // trabalhandoComDatas.AulaDateTime();
             // trabalhandoComDatas.AulaSubtraindoDatas();
-            trabalhandoComDatas.AulaAdicionandoDiasMesAno();
+            // trabalhandoComDatas.AulaAdicionandoDiasMesAno();
+            trabalhandoComDatas.AulaAdicionandoHorasMinutosSegundos();
         }
 
         private static void TrabalhandoComStrings()
