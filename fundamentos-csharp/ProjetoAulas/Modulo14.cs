@@ -24,4 +24,19 @@ public class TrabalhandoComLinq
             Console.WriteLine(numero);
         }
     }
+
+    public void AulaOrdenacao()
+    {
+        // var numeros = new int[] { 10, 6, 5, 50, 15, 2 };
+
+        var nomes = new string[] { "Gabriel", "Rafael", "Eduardo", "Bruno" };
+        // var resultado = numeros.OrderByDescending(x => x);
+        var resultado = nomes.OrderBy(x => x);
+
+        foreach (var nome in resultado)
+        {
+            Console.WriteLine(nome);
+        }
+    }
+
 }
