@@ -39,4 +39,16 @@ public class TrabalhandoComLinq
         }
     }
 
+    public void AulaTake()
+    {
+        var numeros = new int[] { 10, 6, 5, 50, 15, 2 };
+
+        var resultado = numeros.Where(x => x > 10).Take(3).OrderBy(x => x);
+
+        foreach (var numero in resultado)
+        {
+            Console.WriteLine(numero);
+        }
+    }
+
 }

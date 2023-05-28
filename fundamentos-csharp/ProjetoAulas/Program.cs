@@ -26,7 +26,8 @@ namespace Application
         {
             var trabalhandoComLinq = new Modulo14.TrabalhandoComLinq();
             // trabalhandoComLinq.AulaWhere();
-            trabalhandoComLinq.AulaOrdenacao();
+            // trabalhandoComLinq.AulaOrdenacao();
+            trabalhandoComLinq.AulaTake();
         }
 
 
