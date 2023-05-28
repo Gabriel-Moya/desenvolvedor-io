@@ -12,7 +12,30 @@ namespace Application
             // AulaPropriedadeSomenteLeitura();
             // AulaHeranca();
             // AulaClasseSelada();
-            AulaClasseAbstrata();
+            // AulaClasseAbstrata();
+            AulaRecord();
+        }
+
+        private static void AulaRecord()
+        {
+            // var curso1 = new Cadastro.Curso { Id = 1, Descricao = "Curso" };
+            // var curso2 = new Cadastro.Curso { Id = 1, Descricao = "Curso" };
+
+            var curso1 = new Cadastro.Curso(1, "Curso");
+            var curso2 = curso1 with { Descricao = "Teste novo" };
+
+            // var curso1 = new Cadastro.CursoTeste { Id = 1, Descricao = "Curso" };
+            // var curso2 = curso1;
+            // curso2.Descricao = "Teste teste";
+            // var curso2 = new Cadastro.CursoTeste();
+            // curso2.Id = curso1.Id;
+            // curso2.Descricao = "Nova Descricao";
+            
+            Console.WriteLine(curso1.Descricao);
+            Console.WriteLine(curso2.Descricao);
+
+            // Console.WriteLine(curso1.Equals(curso2));
+            // Console.WriteLine(curso1 == curso2);
         }
 
         private static void AulaClasseAbstrata()
