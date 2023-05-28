@@ -10,4 +10,18 @@ public class Conversor
         bool verdadeiro = bool.Parse("true");
         Console.WriteLine(verdadeiro);
     }
+
+    public void AulaTryParse()
+    {
+        var numero = "abc";
+
+        int numeroConvertido;
+
+        if (int.TryParse(numero, out numeroConvertido))
+        {
+            Console.WriteLine("Numero foi convertido com sucesso!");
+        }
+
+        Console.WriteLine(numeroConvertido);
+    }
 }
