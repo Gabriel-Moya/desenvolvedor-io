@@ -60,4 +60,15 @@ public class TrabalhandoComLinq
         Console.WriteLine(resultado);
     }
 
+    public void AulaFirstEFirstOrDefault()
+    {
+        var numeros = new int[] { 10, 6, 5, 50, 15, 2 };
+
+        // var resultado = numeros.First();
+        // var resultado = numeros.First(x => x > 100);
+        var resultado = numeros.FirstOrDefault(x => x > 100, -99);
+
+        Console.WriteLine(resultado);
+    }
+
 }
