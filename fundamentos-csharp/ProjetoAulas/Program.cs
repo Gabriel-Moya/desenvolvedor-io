@@ -16,7 +16,14 @@ namespace Application
             // AulaRecord();
             // AulaInterface();
             // Conversores();
-            TrabalhandoComStrings();
+            // TrabalhandoComStrings();
+            TrabalhandoComDatas();
+        }
+
+        private static void TrabalhandoComDatas()
+        {
+            var trabalhandoComDatas = new Modulo11.TrabalhandoComDatas();
+            trabalhandoComDatas.AulaDateTime();
         }
 
         private static void TrabalhandoComStrings()
