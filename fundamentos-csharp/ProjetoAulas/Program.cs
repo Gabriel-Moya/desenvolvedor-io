@@ -28,7 +28,8 @@ namespace Application
             // trabalhandoComStrings.AulaRange();
             // trabalhandoComStrings.AulaContains();
             // trabalhandoComStrings.AulaTrim();
-            trabalhandoComStrings.AulaStartsWithEndsWith();
+            // trabalhandoComStrings.AulaStartsWithEndsWith();
+            trabalhandoComStrings.AulaReplace();
         }
 
         private static void Conversores()
