@@ -12,6 +12,8 @@ class Program
         var cultura = new CultureInfo("pt-BR");
         Thread.CurrentThread.CurrentCulture = cultura;
         Thread.CurrentThread.CurrentUICulture = cultura;
+
+        _clienteRepositorio.LerDadosClientes();
         while (true)
         {
             Menu();
@@ -70,7 +72,7 @@ class Program
                 }
             case 5:
                 {
-                    // _clienteRepositorio.GravarDadosClientes();
+                    _clienteRepositorio.GravarDadosClientes();
                     Environment.Exit(0);
                     break;
                 }
