@@ -17,7 +17,14 @@ namespace Application
             // AulaInterface();
             // Conversores();
             // TrabalhandoComStrings();
-            TrabalhandoComDatas();
+            // TrabalhandoComDatas();
+            TrabalhandoComExcecoes();
+        }
+
+        private static void TrabalhandoComExcecoes()
+        {
+            var trabalhandoComExcecoes = new Modulo12.TrabalhandoComExcecoes();
+            trabalhandoComExcecoes.AulaGerandoException();
         }
 
         private static void TrabalhandoComDatas()
