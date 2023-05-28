@@ -15,7 +15,14 @@ namespace Application
             // AulaClasseAbstrata();
             // AulaRecord();
             // AulaInterface();
-            Conversores();
+            // Conversores();
+            TrabalhandoComStrings();
+        }
+
+        private static void TrabalhandoComStrings()
+        {
+            var trabalhandoComStrings = new Modulo10.TrabalhandoComStrings();
+            trabalhandoComStrings.ConverterParaLetrasMinusculas();
         }
 
         private static void Conversores()
