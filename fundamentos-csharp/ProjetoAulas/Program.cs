@@ -27,7 +27,8 @@ namespace Application
             // trabalhandoComDatas.AulaSubtraindoDatas();
             // trabalhandoComDatas.AulaAdicionandoDiasMesAno();
             // trabalhandoComDatas.AulaAdicionandoHorasMinutosSegundos();
-            trabalhandoComDatas.AulaDiaDaSemana();
+            // trabalhandoComDatas.AulaDiaDaSemana();
+            trabalhandoComDatas.AulaDateOnly();
         }
 
         private static void TrabalhandoComStrings()
