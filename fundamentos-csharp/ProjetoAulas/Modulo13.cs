@@ -29,4 +29,12 @@ public class TrabalhandoComArquivos
 
         ler.Close();
     }
+
+    public void AulaExcluindoArquivo()
+    {
+        if (File.Exists("cadastro.txt"))
+        {
+            File.Delete("cadastro.txt");
+        }
+    }
 }
